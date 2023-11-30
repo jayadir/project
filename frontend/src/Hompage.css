@@ -1,0 +1,50 @@
+.homepage-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .slides-container {
+    grid-row: 2;
+  }
+  
+  .categories-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .category {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .category-title {
+    font-size: 1.5rem;
+  }
+  
+  .items-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .item {
+    border: 1px solid #eee;
+    padding: 10px;
+  }
+  
+  .no-items {
+    text-align: center;
+    color: #999;
+  }
+  
+  .empty {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+  }
+  

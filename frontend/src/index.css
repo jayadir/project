@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+#slide, .carousel-item,.carousel-item active {
+  max-height: 600px;
+}
+
